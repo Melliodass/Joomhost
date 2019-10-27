@@ -119,14 +119,39 @@ a {
 .top-info__btn-descr {
 }
 .top-images {
+    color: #212121;
+
 }
 .top-images__box {
+    position: relative;
 }
 .top-images__circle {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -40px;
+    right: -102px;
 }
 .top-images__title {
+    margin-bottom: 15px;
+    font-size: 14px;
+    width: 135px;
+    text-align-last: left;
+    
 }
 .top-images__price {
+    margin-bottom: 7px;
+    font-size: 54px;
+    font-weight: 700;
 }
 .top-images__date {
+    width: 135px;
+    text-align: right;
+    font-size: 14px;
 }
