@@ -299,3 +299,50 @@ a {
     text-align: center;
     
 }
+.footer {
+    background-color: #344358;
+    padding-top: 85px;
+    padding-bottom: 135px;
+    color: #718db2;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 263px;
+}
+.footer-menu {
+    width: 165px;
+}
+.footer-form {
+    width: 263px;
+}
+.footer__logo {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.footer__text {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05)
+}
+.footer__title {
+    color: #d0e4ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer__list li{
+    font-size: 13px;
+    list-style: none;
+    margin-bottom: 8px;
+    
+}
+.footer__list a {
+    line-height: 22px;
+    color: #718db2;
+    margin-bottom: 18px;
+}
