@@ -7,4 +7,7 @@ $(function() {
         arrows: false
     });
 
+    $('.btn__menu').on('click', function(){
+        $('.menu__list').slideToggle();
+    });
 });
