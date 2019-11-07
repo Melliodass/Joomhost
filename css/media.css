@@ -1,6 +1,21 @@
 /* адаптив=========================================================
 ================================================================ */
 
+
+@media (max-width: 1200px) {
+    .top-info {
+        max-width: 425px;
+    }
+}
+@media (max-width: 1080px) {
+    .top-info {
+        max-width: 325px;
+    }
+    .top-images__box {
+        max-width: 312px;
+    }
+}
+
 @media (max-width: 992px) {
     .menu__list {
         display: none;
@@ -10,8 +25,32 @@
         right: 0;
         width: 100%;
         text-align: center;
+        border-top: 1px solid #000000;
+        z-index: 5;
+    }
+    .menu__list li {
+        margin-left: 0;
+    }
+    .menu__list a {
+        border-bottom: 1px solid #000;
+        padding: 10px 0;
+        display: block;
+        background-color: #ffffff;
+
+        
     }
     .btn__menu {
        display: block;
     }
+}
+
+@media (max-width: 900px) {
+    
+}
+
+@media (min-width: 992px) {
+    .menu__list {
+        display: flex !important;
+    }
+    
 }
