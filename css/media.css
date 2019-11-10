@@ -1,7 +1,27 @@
 /* адаптив=========================================================
 ================================================================ */
 
+@media (max-width: 1260px) {
 
+    .price__items {
+        flex-wrap: wrap;
+    }
+    .rewiews-box {
+        justify-content: center;    }
+    .price-item {
+        max-width: 48%;
+        margin-bottom: 40px;
+    }
+    .price-item:nth-child(3) {
+        margin-left: auto;
+        margin-right: auto;      
+    }
+    .price-item__number {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+}    
 @media (max-width: 1200px) {
     .top-info {
         max-width: 425px;
@@ -13,6 +33,9 @@
     }
     .top-images__box {
         max-width: 312px;
+    }
+    .rewiews-slider__item {
+        box-shadow: none;
     }
 }
 
@@ -42,10 +65,88 @@
     .btn__menu {
        display: block;
     }
+    .rewiews {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .rewiews-slider {
+        margin-top: 60px;
+    }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 810px) {
+    .top-images__circle {
+        width: 160px;
+        height: 160px;
+        right: -20px;
+    }
+    .top-images__box img {
+        max-width: 300px;
+    }
+    .top__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .top-info {
+        margin-bottom: 70px;
+        margin-right: 0;
+    }
+    .top {
+        padding-top: 100px;
+    }
+    .price {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .price-item {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .rewiews-box {
+        flex-direction: column;
+    }
+    .rewiews-box__images {
+        margin-bottom: 20px;
+        min-height: 261px;
+        width: 100%;
+    }
+    .rewiews-box__content {
+        width: 100%;
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 399px) {
     
+    .top {
+        padding-top: 60px;
+    }
+    .top-info__title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .top-images__box img {
+        max-width: 220px;
+    }
+    .title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .price-item__number {
+        width: 230px;
+    }
+    .price__descr {
+        margin: 30px auto 75px;
+    }
+    .price-item {
+        padding: 0 20px;
+    }
+    .price-item__text {
+        margin-bottom: 30px;
+    }
+   
 }
 
 @media (min-width: 992px) {
